@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Projeto base</title>
+  </head>
+  <body>
+    <div class="container"
+      <h1 class="page-title">Conversor de moedas</h1>
+      <p class="page-subtitle">Descubra os valores das moedas</p>
+      <label for="moeda-origem">Qual a moeda de origem?</label><br />
+      <p>
+        <select name="" id="moeda-origem" class="comboBox">
+          <option value="">Escolha uma moeda</option>
+          <option value="AUD">Dólar Australiano</option>
+          <option value="CAD">Dólar Canadense</option>
+          <option value="CHF">Franco Suíço</option>
+          <option value="DKK">Coroa Dinamarquesa</option>
+          <option value="EUR">Euro</option>
+          <option value="GBP">Libra Esterlina</option>
+          <option value="JPY">Iene</option>
+          <option value="NOK">Coroa Norueguesa</option>
+          <option value="SEK">Coroa Sueca</option>
+          <option value="BRL">Real Brasileiro</option>
+          <option value="USD">Dólar Americano</option>
+        </select>
+      </p>
+
+      <!-- <input type="search" id="moeda-origem" value="USD" /><br /> -->
+      <label for="moeda-destino">Qual a moeda de destino?</label><br />
+      <p>
+        <select name="" id="moeda-destino" class="comboBox">
+          <option value="">Escolha uma moeda</option>
+          <option value="AUD">Dólar Australiano</option>
+          <option value="CAD">Dólar Canadense</option>
+          <option value="CHF">Franco Suíço</option>
+          <option value="DKK">Coroa Dinamarquesa</option>
+          <option value="EUR">Euro</option>
+          <option value="GBP">Libra Esterlina</option>
+          <option value="JPY">Iene</option>
+          <option value="NOK">Coroa Norueguesa</option>
+          <option value="SEK">Coroa Sueca</option>
+          <option value="BRL">Real Brasileiro</option>
+          <option value="USD">Dólar Americano</option>
+        </select>
+      </p>
+      <!-- <input type="search" id="moeda-destino" value="BRL" /><br /> -->
+      <label for="valor">Qual o valor?</label><br />
+      <input type="number" id="valor" size="2" /><br />
+
+      <button type="submit" id="button-convert">Converter</button>
+      <p><label for="" id="label-value-moeda"></label></p>
+      <h2 id="valorConvertido"></h2>
+    </div>
+
+    <script defer src="./js/script.js"></script>
+  </body>
+</html>
